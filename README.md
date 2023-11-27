@@ -46,4 +46,9 @@ Topic Completed:
         git connect show origin (Show branches as well)
 20. Now upload/sync/push local branch(master) to remote repo(origin)
         git push origin master -u
-21. Now this is new line. To test sync remote changes to local.          
+21. Now this is new line. To test sync remote changes to local. For this: 
+        First fetch remote branch
+        git fetch  
+        Second merge remote fetched branch to local branch
+        git merge origin/master
+             
