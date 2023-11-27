@@ -53,4 +53,6 @@ Topic Completed:
         git merge origin/master
 22. Another server to local sync method is pull(fetch + merge). It dosnt require fetch and merge run seperately.   
         git pull origim master
-        git pull (if we use -u flag with push)      
+        git pull (if we use -u flag with push) 
+23. Cloning remote repository to local branch.
+        git clone <remote repo url> <directory - optional>             
