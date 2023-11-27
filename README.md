@@ -45,4 +45,5 @@ Topic Completed:
         git remote -v (Show origin & URL)
         git connect show origin (Show branches as well)
 20. Now upload/sync/push local branch(master) to remote repo(origin)
-        git push origin master -u        
+        git push origin master -u
+21. This line change done in github remote server and now sync it with local.            
