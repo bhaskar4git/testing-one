@@ -27,4 +27,9 @@ Topic Completed:
         git reset .
         git reset <file/folder> 
 12. Commit changes in repo
-        git commit - m "Text/Massege"        
+        git commit - m "Text/Massege" 
+13. Check Git Commit status
+        git log
+        (Shows each commits log with unique id)
+14. After making some more changes to files/folder to readding and re commiting(all with single command)
+        git commit -a -m "Text Message"                                
