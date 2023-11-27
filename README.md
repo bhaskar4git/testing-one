@@ -44,3 +44,5 @@ Topic Completed:
         git connect (Show origin)
         git remote -v (Show origin & URL)
         git connect show origin (Show branches as well)
+20. Now upload/sync/push local branch(master) to remote repo(origin)
+        git push origin master -u        
