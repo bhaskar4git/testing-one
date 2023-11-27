@@ -51,4 +51,6 @@ Topic Completed:
         git fetch  
         Second merge remote fetched branch to local branch
         git merge origin/master
-             
+22. Another server to local sync method is pull(fetch + merge). It dosnt require fetch and merge run seperately.   
+        git pull origim master
+        git pull (if we use -u flag with push)      
