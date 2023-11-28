@@ -52,7 +52,7 @@ Topic Completed:
         Second merge remote fetched branch to local branch  
         git merge origin/master  
 22. Another server to local sync method is pull(fetch + merge). It dosn't require fetch and merge run seperately.    
-        git pull origim master  
+        git pull origin master  
         git pull (if we use -u flag with push)  
 23. Cloning remote repository to local branch.  
         git clone <remote repo-url> <directory - optional>  
@@ -70,4 +70,21 @@ Topic Completed:
         (-d chack before deleting branch for any unsaved/un-commited/un-merged changes. Safe way)  
         git branch -D <branch name>  
         (-D Force delete. No checks perform.)  
-28. Some changes in Master branch. 
+28. Changing branch  
+        git checkout <branch name>  
+        git checkout - (Move to previous branch)  
+29. Creating and changing branch  with single command  
+        git checkout -b <branch name>  
+30. Merging with local branch  
+        git merge <branch name>  
+31. Resolving conflicts while merging branch.  
+        While merging branch if conflicts are it show options for  
+                Accept Current Changes  
+                Accept Incomming Changes  
+                Accept Both Changes  
+                Compare Changes  
+        Check what conflicts are  
+                git diff  
+32. Abort Merging  
+        git merge --abort                         
+
