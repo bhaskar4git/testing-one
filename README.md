@@ -34,7 +34,7 @@ Topic Completed:
 14. After making some more changes to files/folder to re-adding and re-commiting (all with single command)
         git commit -a -m "Text Message"
 15. Now connect with remote git server like github, bitbucket, gitlab etc...(in this case we use github)                                         
-16. Open github.com and login. Then create New Repository by defining name and discription. Then copy https .it link of your repo.
+16. Open github.com and login. Then create New Repository by defining name and discription. Then copy https git link of your repo.
 17. Check current git remote connection.
         git remote
         (Return nothing if no connection made available)
@@ -51,10 +51,22 @@ Topic Completed:
         git fetch  
         Second merge remote fetched branch to local branch
         git merge origin/master
-22. Another server to local sync method is pull(fetch + merge). It dosnt require fetch and merge run seperately.   
+22. Another server to local sync method is pull(fetch + merge). It dosn't require fetch and merge run seperately.   
         git pull origim master
         git pull (if we use -u flag with push) 
 23. Cloning remote repository to local branch.
         git clone <remote repo-url> <directory - optional>
     
---------- Day 2 -----------             
+--------- Day 2 -----------
+
+24. Check/List branch
+        git branch
+25. Rename mastaer branch
+        git branch -M <new name>
+26. Create New branch
+        git branch <new branch name>
+27. Deleting branch
+        git branch -d <branch name>  
+        (-d chack before deleting branch for any unsaved/un-commited/un-merged changes. Safe way)
+        git branch -D <branch name>                       
+        (-D Force delete. No checks perform.)
