@@ -70,4 +70,4 @@ Topic Completed:
         (-d chack before deleting branch for any unsaved/un-commited/un-merged changes. Safe way)  
         git branch -D <branch name>  
         (-D Force delete. No checks perform.)  
-28. Some changes in Master branch.       
+28. Some changes in Master branch. 
