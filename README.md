@@ -86,5 +86,6 @@ Topic Completed:
         Check what conflicts are  
                 git diff  
 32. Abort Merging  
-        git merge --abort                         
+        git merge --abort  
+
 
