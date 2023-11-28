@@ -55,4 +55,6 @@ Topic Completed:
         git pull origim master
         git pull (if we use -u flag with push) 
 23. Cloning remote repository to local branch.
-        git clone <remote repo-url> <directory - optional>             
+        git clone <remote repo-url> <directory - optional>
+    
+--------- Day 2 -----------             
